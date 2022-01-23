@@ -29,7 +29,7 @@ class Post(models.Model):
         return f'Автор: {self.author.get_full_name}, Текст: {self.text[:20]}'
 
     class Meta:
-        ordering = ('-pub_date',)
+        ordering = ('pub_date',)
 
 
 class Comment(models.Model):
