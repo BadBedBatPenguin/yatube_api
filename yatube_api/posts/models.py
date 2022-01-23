@@ -28,6 +28,9 @@ class Post(models.Model):
     def __str__(self):
         return f'Автор: {self.author.get_full_name}, Текст: {self.text[:20]}'
 
+    class Meta:
+        ordering = ('-pub_date',)
+
 
 class Comment(models.Model):
     author = models.ForeignKey(
