@@ -45,3 +45,7 @@ python3 manage.py migrate
 ```Shell
 python3 manage.py runserver
 ```
+
+### Документация
+
+Докуентацию к API можно посмотреть после запуска сервера ([здесь] (https://http://127.0.0.1:8000/redoc/))
