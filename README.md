@@ -7,7 +7,7 @@ REST API к соцсети [Yatube](https://github.com/BadBedBatPenguin/Yatube)
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```Shell
-git clone https://github.com/BadBedBatPenguin/api_final_yatube.git
+git clone https://github.com/BadBedBatPenguin/yatube_api.git
 ```
 
 ```Shell
