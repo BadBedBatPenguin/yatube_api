@@ -1,3 +1,7 @@
+### Yatube API
+
+REST API к соцсети ([Yatube] (https://github.com/BadBedBatPenguin/Yatube))
+
 ### Как запустить проект:
 
 Клонировать репозиторий и перейти в него в командной строке:
