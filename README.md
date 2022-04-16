@@ -1,10 +1,11 @@
 ### Yatube API
 
-REST API к соцсети [Yatube](https://github.com/BadBedBatPenguin/Yatube)
+REST API for [Yatube](https://github.com/BadBedBatPenguin/Yatube)
+Used technologies: Django, Django REST Framework, Django ORM, SQLite, SimpleJWT
 
-### Как запустить проект:
+### How to run project:
 
-Клонировать репозиторий и перейти в него в командной строке:
+Clone repo and move to its directory:
 
 ```Shell
 git clone https://github.com/BadBedBatPenguin/yatube_api.git
@@ -14,7 +15,7 @@ git clone https://github.com/BadBedBatPenguin/yatube_api.git
 cd api_final_yatube
 ```
 
-Cоздать и активировать виртуальное окружение:
+Create and activate virtual environment:
 
 ```Shell
 python3 -m venv env
@@ -24,7 +25,7 @@ python3 -m venv env
 source env/bin/activate
 ```
 
-Установить зависимости из файла requirements.txt:
+Install packages from requirements.txt:
 
 ```Shell
 python3 -m pip install --upgrade pip
@@ -34,18 +35,18 @@ python3 -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Выполнить миграции:
+Migrate:
 
 ```Shell
 python3 manage.py migrate
 ```
 
-Запустить проект:
+Run project:
 
 ```Shell
 python3 manage.py runserver
 ```
 
-### Документация
+### Documentation
 
-Докуентацию к API можно посмотреть после запуска сервера [здесь](https://127.0.0.1:8000/redoc/)
+API documentation is available [here](https://127.0.0.1:8000/redoc/) when server is running
