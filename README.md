@@ -1,6 +1,6 @@
 ### Yatube API
 
-REST API for [Yatube](https://github.com/BadBedBatPenguin/Yatube)
+REST API for [Yatube](https://github.com/BadBedBatPenguin/Yatube) \
 Used technologies: Django, Django REST Framework, Django ORM, SQLite, SimpleJWT
 
 ### How to run project:
