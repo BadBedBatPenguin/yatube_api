@@ -1,9 +1,9 @@
-### Yatube API
+## Yatube API
 
 REST API for [Yatube](https://github.com/BadBedBatPenguin/Yatube) \
 Used technologies: Django, Django REST Framework, Django ORM, SQLite, SimpleJWT
 
-### How to run project:
+## How to run project:
 
 Clone repo and move to its directory:
 
@@ -47,6 +47,6 @@ Run project:
 python3 manage.py runserver
 ```
 
-### Documentation
+## Documentation
 
 API documentation is available [here](https://127.0.0.1:8000/redoc/) when server is running
